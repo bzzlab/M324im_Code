@@ -1,8 +1,10 @@
-### Exercise 2: Create a in Docker in Docker (DinD) image 
+### Exercise 2: Test container pipeline 
 ###  Prerequisite
 1. Your AWS EC2 instance is started with the private shared
 AMI ```bzz-ami```.
-2. Previous exercises has been finished successfully.
+2. You have a docker image ```<your-docker-hub-account>/jenkins_dind```
+3. You have a running container ```jenkins_dind```
+4. Previous exercises has been finished successfully.
 ### Tasks
 1. Read article (Article-1.pdf) on ```Jenkins Building Docker Image and Sending to
  Registry``` starting from chapter ```Creating a job to test docker command```
