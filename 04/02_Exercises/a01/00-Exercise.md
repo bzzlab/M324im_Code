@@ -1,4 +1,4 @@
-### Exercise 4: Create a in Docker in Docker (DinD) image 
+### Exercise 1: Create a in Docker in Docker (DinD) image 
 ###  Prerequisite
 Your AWS EC2 instance is started with the private shared
 AMI ```bzz-ami```.

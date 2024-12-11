@@ -1,4 +1,4 @@
-### Exercise 5: Extend container pipeline with unit tests  
+### Exercise 3: Extend container pipeline with unit tests  
 ###  Prerequisite
 Docker container environment (i.e. actual version of Docker-Desktop) is mandatory.
 ### Tasks
