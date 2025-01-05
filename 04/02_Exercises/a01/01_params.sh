@@ -18,7 +18,7 @@
 
 # Set variable 'file3' for the docker file
 #??
-# Set variable 'image' for container-image
+# Set variable 'image3' for container-image
 #??
-# Set variable 'container' for container-name
+# Set variable 'container3' for container-name
 #??

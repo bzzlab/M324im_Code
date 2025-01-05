@@ -1,17 +1,17 @@
-### Exercise 4: Create a in Docker in Docker (DinD) image 
+### Exercise 1: Create a in Docker in Docker (DinD) image 
 ###  Prerequisite
 Your AWS EC2 instance is started with the private shared
 AMI ```bzz-ami```.
 ### Tasks
-Create a DinD image in three steps:
+Create a DinD image ```<your-docker-hub-account>/jenkins_dind``` in three steps:
 1. Complete all bash-scripts in order to build Dockerfile1 to Dockerfile3.  
 2. Copy all bash-scripts (except *_scp.sh) to your AWS-EC2 instance 
-3. Build and run on your AWS-EC2 instance jenkins3 container.
-4. Login into running jenkins-container (jenkins3) on your AWS EC2 instance.
+3. Build and run on your AWS-EC2 instance jenkins_dind container.
+4. Login into running jenkins-container (jenkins_dind) on your AWS EC2 instance.
 ```
 docker ps 
-#--> should show jenkins3 as running container
-docker exec --privileged -it jenkins3 bash
+#--> should show jenkins_dind as running container
+docker exec --privileged -it jenkins_dind bash
 #--> root-prompt should appear
 dockerd&
 ps aux|grep dockerd

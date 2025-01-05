@@ -18,4 +18,6 @@ echo "run now container"
 #??
 #??
 #??
+
+# start docker environment in the container
 #??

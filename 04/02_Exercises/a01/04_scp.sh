@@ -13,7 +13,9 @@
 #??
 
 # remove (with ssh) target directory for the app
+echo "Remove directory ${DIR} on ${DEST}"
 #??
+echo "Create directory ${DIR} on ${DEST}"
 # create (with ssh) target directory for the app
 #??
 # copy (with scp) all bash script to destination
