@@ -1,5 +1,5 @@
 # child-dockerfile
-ARG IMG="readydocker1/jenkins2"
+ARG IMG="<your docker-hub-account>/jenkins2"
 FROM ${IMG}:latest
 USER root
 RUN curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg > /tmp/dkey; apt-key add /tmp/dkey && \

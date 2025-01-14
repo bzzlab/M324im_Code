@@ -164,7 +164,7 @@ lrwxrwxrwx   1 root root    7 May 22 14:04 bin -> usr/bin
 ```
 $ docker image ls
 REPOSITORY          TAG       IMAGE ID       CREATED        SIZE
-readydocker1/m122   latest    4f83d48ff416   4 months ago   247MB
+<your docker-hub-account>/m122   latest    4f83d48ff416   4 months ago   247MB
 ubuntu              latest    a8780b506fa4   7 months ago   77.8MB
 ```
 3. Start ubuntu image as container bzzuntu-1 and bzzuntu-2
@@ -201,7 +201,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 $ docker image ls
 REPOSITORY          TAG       IMAGE ID       CREATED        SIZE
-readydocker1/m122   latest    4f83d48ff416   4 months ago   247MB
+<your docker-hub-account>/m122   latest    4f83d48ff416   4 months ago   247MB
 ubuntu              latest    a8780b506fa4   7 months ago   77.8MB
 
 $ docker rmi ubuntu:latest

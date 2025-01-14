@@ -1,6 +1,6 @@
 # Jenkins controller with packages
 #
-ARG IMG="readydocker1/jenkins1"
+ARG IMG="<your docker-hub-account>/jenkins1"
 FROM ${IMG}:latest
 USER root
 RUN wget -O /usr/share/keyrings/jenkins-keyring.asc \

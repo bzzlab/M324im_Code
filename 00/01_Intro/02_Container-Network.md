@@ -15,7 +15,7 @@ $ docker image ls
 REPOSITORY          TAG       IMAGE ID       CREATED        SIZE
 nginx               latest    f9c14fe76d50   11 days ago    143MB
 ubuntu              latest    1f6ddc1b2547   13 days ago    77.8MB
-readydocker1/m122   latest    4f83d48ff416   4 months ago   247MB
+<your docker-hub-account>/m122   latest    4f83d48ff416   4 months ago   247MB
 ```
 3. Run container and map container port 8080 (outbound) to 80 (inbound).
 ```

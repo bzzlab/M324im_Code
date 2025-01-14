@@ -3,7 +3,7 @@
 # Change CRLF (Windows) to LF (Unix on AWS) in your Editor
 #
 # Set your dockerhub user
-user="readydocker1"
+user="<your docker-hub-account>"
 # Set variable 'file1' for the docker file
 file1="Dockerfile1" #??
 # Set variable 'container1' for container-name
