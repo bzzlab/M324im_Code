@@ -8,6 +8,7 @@ Create a DinD image ```<your-docker-hub-account>/jenkins_dind``` in three steps:
 2. Copy all bash-scripts (except *_scp.sh) to your AWS-EC2 instance 
 3. Build and run on your AWS-EC2 instance jenkins_dind container.
 4. Login into running jenkins-container (jenkins_dind) on your AWS EC2 instance.
+See below the steps/commands
 ```
 docker ps 
 #--> should show jenkins_dind as running container
